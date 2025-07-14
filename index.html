@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fortune Offiong | Creative Dev & Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">Fortune</a>
+
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <img src="images/d.png" alt="Fortune Offiong" class="hero-image">
+    <h1>Fortune Offiong</h1>
+    <p>A Creative Developer & Designer blending code, animation, and design to build immersive web experiences.</p>
+    <a href="#projects" class="enter-btn">Enter Experience </a>
+
+  </header>
+
+
+    <!-- about section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p class="about-intro">
+        Hello! I'm <strong>Fortune Offiong</strong>, a passionate developer and designer dedicated to crafting immersive digital experiences. I believe in the fusion of creativity and logic using design to delight and code to empower.
+      </p>
+      <div class="about-details">
+        <div class="about-box">
+          <h3> Developer</h3>
+          <p>I specialize in building responsive, interactive websites using HTML, CSS, JavaScript, React, and Web3 tools like Solidity and Ethers.js.</p>
+        </div>
+        <div class="about-box">
+          <h3> Designer</h3>
+          <p>I design interfaces with clarity and emotion using Figma, Framer, and Adobe tools always with a love for motion and micro-interactions.</p>
+        </div>
+        <div class="about-box">
+          <h3> Mission</h3>
+          <p>To create meaningful, accessible experiences that blend technology, design, and storytelling in ways that inspire and empower.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!-- stack section -->
+  <section class="stack" id="stack">
+    <div class="stack-container">
+      <h2>Stack + Toolbox</h2>
+      <div class="stack-grid">
+        <div class="stack-item">
+          <h3>HTML</h3>
+          <p>Level: Expert</p>
+        </div>
+        <div class="stack-item">
+          <h3>CSS</h3>
+          <p>Level: Expert</p>
+        </div>
+        <div class="stack-item">
+          <h3>JavaScript</h3>
+          <p>Level: Advanced</p>
+        </div>
+        <div class="stack-item">
+          <h3>React</h3>
+          <p>Level: Advanced</p>
+        </div>
+        <div class="stack-item">
+          <h3>Solidity</h3>
+          <p>Level: Intermediate</p>
+        </div>
+        <div class="stack-item">
+          <h3>Ethers.js</h3>
+          <p>Level: Intermediate</p>
+        </div>
+        <div class="stack-item">
+          <h3>Photoshop</h3>
+          <p>Level: Advanced</p>
+        </div>
+        <div class="stack-item">
+          <h3>Illustrator</h3>
+          <p>Level: Intermediate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- project section -->
+
+  <section class="projects" id="projects">
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/project1.png" alt="Project 1">
+          <h3>NX Token Dashboard</h3>
+          <p>A modern Web3 interface to manage your NX token with live wallet connect and on-chain data.</p>
+          <a href="#" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="images/project2.png" alt="Project 2">
+          <h3>Senator Clothing Shop</h3>
+          <p>Online boutique for traditional fashion, built with pure HTML, CSS, and custom JS cart.</p>
+          <a href="#" target="_blank"  class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="images/project3.png" alt="Project 3">
+          <h3>Real Estate platform</h3>
+          <p>An online real real-estateplatform for property seeker, agents and property buyers.</p>
+          <a href="https://nodexxplorer.github.io/real-estate/" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <h2>Contact</h2>
+      <p class="contact-intro">Let's build something extraordinary. Feel free to reach out!</p>
+      <form class="contact-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div class="social-icons">
+        <a href="https://twitter.com/nodexxplorer" target="_blank">Twitter</a>
+        <a href="https://github.com/nodexxplorer" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/nodexxplorer" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/nodexxplorer"target="_blank">Facebook</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Fortune Offiong. All rights reserved.</p>
+  </footer>
+
+  <script>
+  const toggleBtn = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggleBtn.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  });
+</script>
+
+</body>
+
+
+</html>
